@@ -152,10 +152,10 @@
     ]
   },
   "dependencies": {
-    "jsonfile": "^2.2.3"
+    "jsonfile": "2.2.3"
   },
   "devDependencies": {
-    "vscode": "^1.0.0"
+    "vscode": "1.0.0"
   },
   "icon": "brackets-keyboard.png"
 }
