@@ -166,6 +166,6 @@
         "vscode": "1.0.0"
     },
     "dependencies": {
-        "jsonfile": "2.2.3"
+        "jsonfile": "6.1.0"
     }
 }
