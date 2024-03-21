@@ -1,27 +1,11 @@
 {
-	"name": "brackets-keybindings",
-	"displayName": "Brackets Keymap",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Popular Brackets keybindings for VS Code.",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
-	"bugs": {
-		"url": "https://github.com/CodeEditorLand/Foundation/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Playform",
 		"email": "Hello@Playform.Cloud",
+		"name": "Playform",
 		"url": "https://playform.cloud"
 	},
-	"type": "module",
-	"scripts": {
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
 	},
 	"contributes": {
 		"keybindings": [
@@ -163,12 +147,28 @@
 	"dependencies": {
 		"jsonfile": "6.1.0"
 	},
+	"description": "Popular Brackets keybindings for VS Code.",
 	"devDependencies": {
-		"typescript-esbuild": "0.4.5",
+		"typescript-esbuild": "",
 		"vscode": "1.0.0"
 	},
+	"displayName": "Brackets Keymap",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"icon": "brackets-keyboard.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "brackets-keybindings",
+	"private": false,
 	"publishConfig": {
 		"access": "public"
 	},
-	"icon": "brackets-keyboard.png"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
