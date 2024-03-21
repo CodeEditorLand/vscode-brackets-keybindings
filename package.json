@@ -164,7 +164,7 @@
 		"jsonfile": "6.1.0"
 	},
 	"devDependencies": {
-		"typescript-esbuild": "latest",
+		"typescript-esbuild": "0.4.5",
 		"vscode": "1.0.0"
 	},
 	"publishConfig": {
