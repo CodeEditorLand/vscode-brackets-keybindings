@@ -164,7 +164,7 @@
 		]
 	},
 	"dependencies": {
-		"jsonfile": "^2.2.3"
+		"jsonfile": "6.1.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
