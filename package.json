@@ -141,7 +141,7 @@
 		]
 	},
 	"dependencies": {
-		"jsonfile": "^2.2.3"
+		"jsonfile": "2.2.3"
 	},
 	"devDependencies": {},
 	"icon": "brackets-keyboard.png"
