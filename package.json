@@ -137,7 +137,7 @@
 		]
 	},
 	"dependencies": {
-		"jsonfile": "^2.2.3"
+		"jsonfile": "2.2.3"
 	},
 	"description": "Popular Brackets keybindings for VS Code.",
 	"devDependencies": {},
