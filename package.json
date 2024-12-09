@@ -1,4 +1,8 @@
 {
+	"name": "brackets-keybindings",
+	"displayName": "Brackets Keymap",
+	"description": "Popular Brackets keybindings for VS Code.",
+	"scripts": {},
 	"contributes": {
 		"keybindings": [
 			{
@@ -139,10 +143,6 @@
 	"dependencies": {
 		"jsonfile": "6.1.0"
 	},
-	"description": "Popular Brackets keybindings for VS Code.",
 	"devDependencies": {},
-	"displayName": "Brackets Keymap",
-	"icon": "brackets-keyboard.png",
-	"name": "brackets-keybindings",
-	"scripts": {}
+	"icon": "brackets-keyboard.png"
 }
